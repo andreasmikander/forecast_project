@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.container {
+    padding: 1em;
+    opacity: 0.8;
+    
+    margin: 1em;
+    background: black;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.search--input {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    outline: none;
+    border: none;
+    
+    
+}
+
+.input__text {
+    padding: 0.6em;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 110%;
+    font-family: inherit;
+    background-color: rgb(87, 83, 79);
+    color: rgb(12, 12, 12);
+    width: 70%;
+}
+
+.input__text:hover {
+    filter: brightness(150%);
+    transition: 0.5s ease-in-out;
+}
+
+::placeholder {
+    color: rgb(110, 107, 107);
+}
+
+
+
+.button--submit {
+    margin: 1em;
+    border-radius: 25px;
+    border: none;
+    padding: 1em;
+    background-color: rgb(87, 83, 79);
+    cursor: pointer;
+}
+
+.button--submit:hover {
+    filter: brightness(150%);
+    transition: 0.5s ease-in-out;
+}
+
+.weathertogether {
+    margin: 2em 5em 4.5em 2em;
+
+}
+
+.temperature {
+    font-size: 50px;
+}
+
+.weather--widget {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.weather--widget, .wind--speed, .humidity {
+    text-align: center;
+}
